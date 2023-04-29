@@ -1,5 +1,9 @@
 # Product Landing Page
 
+## Live Preview
+
+[https://youngmrnelson.github.io/product-landing-page/](https://youngmrnelson.github.io/product-landing-page/)
+
 ## Objective
 
 Build an app that is functionally similar to [https://product-landing-page.freecodecamp.rocks](https://product-landing-page.freecodecamp.rocks).
