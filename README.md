@@ -29,7 +29,7 @@ Build an app that is functionally similar to [https://product-landing-page.freec
 
 ## Credits
 
--
+- Thank you [@kimzy](https://unsplash.com/@kimzy) for your beautiful photos!
 
 ## Contact
 
