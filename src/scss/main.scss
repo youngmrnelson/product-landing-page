@@ -11,47 +11,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Utilities */
-
-h1, .section-header-subtext,
-.nav-logo {
-    font-family: 'Pacifico', cursive;
-}
-
-/* Signup Section */
-.section-img {
-    display: none;
-}
-
-.form {
-    text-align: center;
-}
-
-.form-legend {
-    font-size: 1.8rem;
-    margin-bottom: 24px;
-}
-
-.form-input {
-    padding: 4px;
-}
-
-input[type="submit"] {
-    display: block;
-    margin-top: 24px;
-    margin-inline: auto;
-}
-
-/* Footer */
-.footer {
-    text-align: center;
-    padding-block: 8px;
-}
-
-footer .footer-text {
-    font-size: 16px;
-}
-
 /* Media Queries */
 @media(min-width: 1024px) {
     .section-article {
