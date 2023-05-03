@@ -78,6 +78,11 @@ table {
 .grid-gc--3 {
   grid-template-columns: repeat(3, 1fr);
 }
+@media (max-width: 767px) {
+  .grid-gc--3 {
+    grid-template-columns: 1fr;
+  }
+}
 .grid-span--full {
   grid-column: 1/-1;
 }
@@ -115,6 +120,15 @@ table {
   display: block;
   width: 100%;
   object-fit: center;
+}
+@media (max-width: 767px) {
+  .img {
+    display: none;
+  }
+}
+
+#video {
+  width: 100%;
 }
 
 .bg-primary {
@@ -317,10 +331,6 @@ a {
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-}
-
-#video {
-  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
