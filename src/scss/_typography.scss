@@ -13,3 +13,28 @@ a {
     text-decoration: none;
     color: var(--gray-7);
 }
+
+// Headings
+.h {
+    &-main {
+        font-family: 'Pacifico', cursive;
+    }
+
+    &-header {
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 2rem;
+        color: var(--gray-7);
+    }
+
+    &-subheader {
+        font-size: 3rem;
+    }
+}
+
+// Paragraphs
+.p {
+    &-main {
+        font-size: 1.8rem;
+    }
+}

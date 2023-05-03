@@ -67,6 +67,9 @@ table {
 .grid-gc--1 {
   grid-template-columns: 1fr;
 }
+.grid-gc--2 {
+  grid-template-columns: 1fr 1fr;
+}
 .grid-gc--3 {
   grid-template-columns: repeat(3, 1fr);
 }
@@ -231,6 +234,23 @@ a {
   color: var(--gray-7);
 }
 
+.h-main {
+  font-family: "Pacifico", cursive;
+}
+.h-header {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 2rem;
+  color: var(--gray-7);
+}
+.h-subheader {
+  font-size: 3rem;
+}
+
+.p-main {
+  font-size: 1.8rem;
+}
+
 .header {
   border-bottom: 1px solid var(--lime-2);
 }
@@ -284,44 +304,6 @@ h1, .section-header-subtext,
   font-family: "Pacifico", cursive;
 }
 
-.section {
-  padding: 40px 8px;
-}
-
-.section-header-text {
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 2rem;
-  text-align: center;
-  color: var(--gray-7);
-}
-
-.section-header-subtext {
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 32px;
-}
-
-/* About Section */
-.about-container {
-  display: grid;
-}
-
-#video {
-  width: 100%;
-}
-
-.section-article {
-  padding-block: 12px;
-  border-top: 1px solid var(--lime-7);
-  border-bottom: 1px solid var(--lime-7);
-  margin-bottom: 32px;
-}
-
-.section-article-text {
-  font-size: 1.8rem;
-}
-
 /* Signup Section */
 .section-img {
   display: none;
@@ -358,12 +340,6 @@ footer .footer-text {
 
 /* Media Queries */
 @media (min-width: 1024px) {
-  /* About Section */
-  .about-container {
-    grid-template-columns: 1fr 1fr;
-    gap: 32px;
-    align-items: center;
-  }
   .section-article {
     border: none;
     margin-bottom: 0;
