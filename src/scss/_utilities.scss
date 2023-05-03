@@ -18,6 +18,13 @@
     &-tertiary { max-width: 800px }
 }
 
+// Images
+.img {
+    display: block;
+    width: 100%;
+    object-fit: center;
+}
+
 // Backgrounds
 .bg {
     &-primary {

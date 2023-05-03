@@ -19,11 +19,20 @@
     // GC-2
     &-gc--2 {
         grid-template-columns: 1fr 1fr;
+
+        @media (max-width: 767px) {
+            grid-template-columns: 1fr;
+        }
     }
 
     // GC-3
     &-gc--3 {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    // GC - FULL
+    &-span--full {
+        grid-column: 1 / -1;
     }
 }
 
