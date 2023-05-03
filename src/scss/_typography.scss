@@ -1,0 +1,15 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+// General Styling
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    color: var(--gray-9);
+}
+
+a {
+    text-decoration: none;
+    color: var(--gray-7);
+}

@@ -1,0 +1,43 @@
+// Flexbox Layouts
+.flex {
+    display: flex;
+}
+
+// Smartphones
+@media(max-width: 767px) {
+    // Flexbox Layouts
+    .flex {
+        &-d--c {
+            flex-direction: column;
+        }
+    }
+}
+
+// Grid Layouts
+.grid {
+    display: grid;
+
+    // GC-1
+    &-gc--1 {
+        grid-template-columns: 1fr;
+    }
+
+    // GC-3
+    &-gc--3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+// Align Items
+.ai {
+    &-c {
+        align-items: center;
+    }
+}
+
+// Justify Content
+.jc {
+    &-c {
+        justify-content: center;
+    }
+}
