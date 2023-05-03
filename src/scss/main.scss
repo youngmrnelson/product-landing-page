@@ -2,6 +2,7 @@
 @use 'layout';
 @use 'utilities';
 @use 'typography';
+@use 'header';
 @use 'navigation';
 
 html {
@@ -53,43 +54,6 @@ h1, .section-header-subtext,
     font-size: 3rem;
     text-align: center;
     margin-bottom: 32px;
-}
-
-/* Header Content */
-.header {
-    background-color: #333;
-    border-bottom: 1px solid var(--lime-2);
-}
-
-.header-container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: url('../images/header-bg.jpg') no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    opacity: 0.8;
-}
-
-.header-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-    height: 50vh;
-}
-
-.header-title {
-    font-size: 3.6rem;
-    color: var(--lime-0);
-    z-index: 1;
-    margin-bottom: 44px;
-}
-
-.header-title-alt {
-    color: var(--lime-7);
 }
 
 /* About Section */

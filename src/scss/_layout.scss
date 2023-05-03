@@ -1,15 +1,9 @@
 // Flexbox Layouts
 .flex {
     display: flex;
-}
 
-// Smartphones
-@media(max-width: 767px) {
-    // Flexbox Layouts
-    .flex {
-        &-d--c {
-            flex-direction: column;
-        }
+    &-d--c {
+        flex-direction: column;
     }
 }
 

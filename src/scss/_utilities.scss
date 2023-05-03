@@ -26,6 +26,9 @@
     &-light {
         background: var(--lime-0);
     }
+    &-dark {
+        background: #333;
+    }
 }
 
 // Gap
@@ -41,6 +44,7 @@
     &-1 { padding-block: 24px }
     &-2 { padding-block: 32px }
     &-3 { padding-block: 44px }
+    &-4 { padding-block: 88px }
 }
 
 .pi {

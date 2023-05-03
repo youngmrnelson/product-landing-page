@@ -57,12 +57,10 @@ table {
 .flex {
   display: flex;
 }
-
-@media (max-width: 767px) {
-  .flex-d--c {
-    flex-direction: column;
-  }
+.flex-d--c {
+  flex-direction: column;
 }
+
 .grid {
   display: grid;
 }
@@ -108,6 +106,9 @@ table {
 .bg-light {
   background: var(--lime-0);
 }
+.bg-dark {
+  background: #333;
+}
 
 .gap-1 {
   gap: 8px;
@@ -130,6 +131,9 @@ table {
 }
 .py-3 {
   padding-block: 44px;
+}
+.py-4 {
+  padding-block: 88px;
 }
 
 .pi-1 {
@@ -208,6 +212,31 @@ a {
   color: var(--gray-7);
 }
 
+.header {
+  border-bottom: 1px solid var(--lime-2);
+}
+.header-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../images/header-bg.jpg") no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+}
+.header-container {
+  position: relative;
+}
+.header-title {
+  font-size: 3.6rem;
+  color: var(--lime-0);
+  z-index: 1;
+}
+.header-title-alt {
+  color: var(--lime-7);
+}
+
 .nav-logo, .nav-link {
   color: var(--lime-0);
   transition: var(--transition);
@@ -273,43 +302,6 @@ h1, .section-header-subtext,
   font-size: 3rem;
   text-align: center;
   margin-bottom: 32px;
-}
-
-/* Header Content */
-.header {
-  background-color: #333;
-  border-bottom: 1px solid var(--lime-2);
-}
-
-.header-container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: url("../images/header-bg.jpg") no-repeat center center/cover;
-  height: 100%;
-  width: 100%;
-  opacity: 0.8;
-}
-
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: relative;
-  height: 50vh;
-}
-
-.header-title {
-  font-size: 3.6rem;
-  color: var(--lime-0);
-  z-index: 1;
-  margin-bottom: 44px;
-}
-
-.header-title-alt {
-  color: var(--lime-7);
 }
 
 /* About Section */
