@@ -18,11 +18,19 @@
     &-tertiary { max-width: 800px }
 }
 
-// Images
+// Images & Video
 .img {
     display: block;
     width: 100%;
     object-fit: center;
+
+    @media(max-width: 767px) {
+        display: none;
+    }
+}
+
+#video {
+    width: 100%;
 }
 
 // Backgrounds
