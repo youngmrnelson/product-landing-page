@@ -1,6 +1,7 @@
 @use 'reset';
 @use 'layout';
 @use 'utilities';
+@use 'components';
 @use 'typography';
 @use 'header';
 @use 'navigation';
@@ -15,27 +16,6 @@ html {
 h1, .section-header-subtext,
 .nav-logo {
     font-family: 'Pacifico', cursive;
-}
-
-.btn {
-    cursor: pointer;
-    border: none;
-    display: inline-block;
-    color: var(--lime-0);
-    font-size: 2rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 6px 12px;
-    transition: var(--transition);
-    z-index: 1;
-}
-
-.btn-primary {
-    background-color: var(--lime-9);
-}
-
-.btn-primary:hover {
-    background-color: var(--lime-7);
 }
 
 .section {
