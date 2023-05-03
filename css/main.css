@@ -201,6 +201,25 @@ table {
   text-align: right;
 }
 
+.btn {
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--lime-0);
+  background: var(--lime-9);
+  padding: 16px 24px;
+  transition: var(--transition);
+  z-index: 1;
+}
+.btn-primary {
+  background: var(--lime-9);
+}
+.btn-primary:hover {
+  background: var(--lime-7);
+}
+
 body {
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
@@ -263,27 +282,6 @@ html {
 h1, .section-header-subtext,
 .nav-logo {
   font-family: "Pacifico", cursive;
-}
-
-.btn {
-  cursor: pointer;
-  border: none;
-  display: inline-block;
-  color: var(--lime-0);
-  font-size: 2rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  padding: 6px 12px;
-  transition: var(--transition);
-  z-index: 1;
-}
-
-.btn-primary {
-  background-color: var(--lime-9);
-}
-
-.btn-primary:hover {
-  background-color: var(--lime-7);
 }
 
 .section {
