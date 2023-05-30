@@ -1,4 +1,5 @@
 import React from "react";
+import image1 from '../../../assets/images/section-img-1.jpg'
 
 export default function Signup() {
     return (
@@ -9,7 +10,7 @@ export default function Signup() {
                 <p className="h-main h-subheader ta-c mb-3">Puff Puff Pass</p>
             </header>
             <figure className="section-img-container">
-                <img src="images/section-img-1.jpg" alt="THC infused tea" className="img" />
+                <img src={image1} alt="THC infused tea" className="img" />
             </figure>
             <div className="section-container">
                 <form action="https://www.freecodecamp.com/email-submit" id="form" className="form ta-c">
@@ -23,7 +24,7 @@ export default function Signup() {
                 </form>
             </div>
             <figure className="section-img-container">
-                <img src="images/section-img-1.jpg" alt="THC infused tea" className="img" />
+                <img src={image1} alt="THC infused tea" className="img" />
             </figure>
             </div>
         </section>
