@@ -1,13 +1,228 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./src/js/App.js":
 /*!***********************!*\
   !*** ./src/js/App.js ***!
   \***********************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ App)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Navbar/Navbar */ "./src/js/components/Navbar/Navbar.js");
 
 
+function App() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"], null));
+}
+
+/***/ }),
+
+/***/ "./src/js/components/Navbar/Navbar.js":
+/*!********************************************!*\
+  !*** ./src/js/components/Navbar/Navbar.js ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Navbar)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function Navbar() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
+    className: "nav py-0",
+    id: "nav-bar"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container bg-primary m-auto grid grid-gc--3 ai-c jc-3 gap-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "index.html",
+    className: "nav-logo h-main p-1 ta-c"
+  }, "Up In Smoke", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "nav-logo--alt"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
+    className: "fa-solid fa-joint"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "nav-links flex gap-3 jc-c"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "index.html",
+    className: "nav-link p-1"
+  }, "Home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "#about",
+    className: "nav-link p-1"
+  }, "About")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "#smoke",
+    className: "nav-link p-1"
+  }, "Smoke"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "nav-links-ext flex gap-3 jc-c"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://www.linkedin.com/in/daniel-nelson-9151a6212/",
+    target: "_blank",
+    className: "nav-link p-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
+    className: "fa-brands fa-linkedin"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://github.com/youngmrnelson",
+    target: "_blank",
+    className: "nav-link p-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
+    className: "fa-brands fa-github"
+  }))))));
+}
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss ***!
+  \*********************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);"]);
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap);"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block;\n}\n\nbody {\n  line-height: 1;\n}\n\nol, ul {\n  list-style: none;\n}\n\nblockquote, q {\n  quotes: none;\n}\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: \"\";\n  content: none;\n}\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n\n.flex {\n  display: flex;\n}\n.flex-d--c {\n  flex-direction: column;\n}\n\n.grid {\n  display: grid;\n}\n.grid-gc--1 {\n  grid-template-columns: 1fr;\n}\n.grid-gc--2 {\n  grid-template-columns: 1fr 1fr;\n}\n@media (max-width: 767px) {\n  .grid-gc--2 {\n    grid-template-columns: 1fr;\n  }\n}\n.grid-gc--3 {\n  grid-template-columns: repeat(3, 1fr);\n}\n@media (max-width: 767px) {\n  .grid-gc--3 {\n    grid-template-columns: 1fr;\n  }\n}\n.grid-span--full {\n  grid-column: 1/-1;\n}\n\n.ai-c {\n  align-items: center;\n}\n\n.jc-c {\n  justify-content: center;\n}\n\n:root {\n  --lime-9: #5c940d;\n  --lime-7: #74b816;\n  --lime-2: #d8f5a2;\n  --lime-0: #f4fce3;\n  --gray-9: #212529;\n  --gray-7: #495057;\n  --transition: 0.3s ease;\n  --max-width: 1200px;\n}\n\n.container {\n  max-width: 1100px;\n}\n.container-secondary {\n  max-width: 1000px;\n}\n.container-tertiary {\n  max-width: 800px;\n}\n\n.img {\n  display: block;\n  width: 100%;\n  object-fit: center;\n}\n@media (max-width: 767px) {\n  .img {\n    display: none;\n  }\n}\n\n#video {\n  width: 100%;\n}\n\n.bg-primary {\n  background: var(--lime-9);\n}\n.bg-light {\n  background: var(--lime-0);\n}\n.bg-dark {\n  background: #333;\n}\n\n.gap-1 {\n  gap: 8px;\n}\n.gap-2 {\n  gap: 16px;\n}\n.gap-3 {\n  gap: 24px;\n}\n\n.py-0 {\n  padding-block: 8px;\n}\n.py-1 {\n  padding-block: 24px;\n}\n.py-2 {\n  padding-block: 32px;\n}\n.py-3 {\n  padding-block: 44px;\n}\n.py-4 {\n  padding-block: 88px;\n}\n\n.pi-1 {\n  padding-inline: 8px;\n}\n.pi-2 {\n  padding-inline: 12px;\n}\n\n.pb-1 {\n  padding-bottom: 4px;\n}\n\n.p-0 {\n  padding: 4px;\n}\n.p-1 {\n  padding: 8px;\n}\n.p-2 {\n  padding: 12px;\n}\n.p-3 {\n  padding: 24px;\n}\n\n.my-1 {\n  margin-block: 12px;\n}\n.my-2 {\n  margin-block: 24px;\n}\n.my-3 {\n  margin-block: 36px;\n}\n.my-4 {\n  margin-block: 80px;\n}\n\n.mb-1 {\n  margin-bottom: 12px;\n}\n.mb-2 {\n  margin-bottom: 24px;\n}\n.mb-3 {\n  margin-bottom: 36px;\n}\n.mb-4 {\n  margin-bottom: 64px;\n}\n\n.ml-1 {\n  margin-left: 8px;\n}\n\n.m-auto {\n  margin-inline: auto;\n}\n\n.ta-c {\n  text-align: center;\n}\n.ta-r {\n  text-align: right;\n}\n\n.disp-block {\n  display: block;\n}\n\n.btn {\n  cursor: pointer;\n  border: none;\n  display: inline-block;\n  font-size: 2rem;\n  font-weight: 600;\n  color: var(--lime-0);\n  background: var(--lime-9);\n  padding: 16px 24px;\n  transition: var(--transition);\n  z-index: 1;\n}\n.btn-primary {\n  background: var(--lime-9);\n}\n.btn-primary:hover {\n  background: var(--lime-7);\n}\n\nbody {\n  font-family: \"Poppins\", sans-serif;\n  line-height: 1.5;\n  color: var(--gray-9);\n}\n\na {\n  text-decoration: none;\n  color: var(--gray-7);\n}\n\n.h-main {\n  font-family: \"Pacifico\", cursive;\n}\n.h-header {\n  text-transform: uppercase;\n  font-weight: 300;\n  font-size: 2rem;\n  color: var(--gray-7);\n}\n.h-subheader {\n  font-size: 3rem;\n}\n\n.p-main {\n  font-size: 1.8rem;\n}\n.p-footer {\n  font-size: 1.4rem;\n}\n\n.header {\n  border-bottom: 1px solid var(--lime-2);\n}\n.header-container::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  opacity: 0.8;\n}\n.header-container {\n  position: relative;\n}\n.header-title {\n  font-size: 3.6rem;\n  color: var(--lime-0);\n  z-index: 1;\n}\n.header-title-alt {\n  color: var(--lime-7);\n}\n\n.nav-logo, .nav-link {\n  color: var(--lime-0);\n  transition: var(--transition);\n}\n.nav-logo:hover > .nav-logo--alt, .nav-logo:hover, .nav-logo:hover > .nav-link--alt, .nav-link:hover, .nav-link:hover > .nav-logo--alt, .nav-link:hover > .nav-link--alt {\n  color: var(--lime-2);\n}\n.nav-logo {\n  font-size: 2.6rem;\n  text-shadow: 1px 1px 2px var(--gray-9);\n}\n.nav-links, .nav-links-ext {\n  text-transform: uppercase;\n  font-weight: 600;\n  font-size: 1.8rem;\n}\n\nhtml {\n  font-size: 62.5%;\n  scroll-behavior: smooth;\n}", "",{"version":3,"sources":["webpack://./src/scss/_reset.scss","webpack://./src/scss/main.scss","webpack://./src/scss/_layout.scss","webpack://./src/scss/_utilities.scss","webpack://./src/scss/_components.scss","webpack://./src/scss/_typography.scss","webpack://./src/scss/_header.scss","webpack://./src/scss/_navigation.scss"],"names":[],"mappings":"AAAA;;;CAAA;AAKA;;;;;;;;;;;;;EAaC,SAAA;EACA,UAAA;EACA,SAAA;EACA,eAAA;EACA,aAAA;EACA,wBAAA;ACED;;ADAA,gDAAA;AACA;;EAEC,cAAA;ACGD;;ADDA;EACC,cAAA;ACID;;ADFA;EACC,gBAAA;ACKD;;ADHA;EACC,YAAA;ACMD;;ADJA;;EAEC,WAAA;EACA,aAAA;ACOD;;ADLA;EACC,yBAAA;EACA,iBAAA;ACQD;;ACrDA;EACI,aAAA;ADwDJ;ACtDI;EACI,sBAAA;ADwDR;;ACnDA;EACI,aAAA;ADsDJ;ACnDI;EACI,0BAAA;ADqDR;ACjDI;EACI,8BAAA;ADmDR;ACjDQ;EAHJ;IAIQ,0BAAA;EDoDV;AACF;AChDI;EACI,qCAAA;ADkDR;AChDQ;EAHJ;IAIQ,0BAAA;EDmDV;AACF;AC/CI;EACI,iBAAA;ADiDR;;AC3CI;EACI,mBAAA;AD8CR;;ACxCI;EACI,uBAAA;AD2CR;;AE9FA;EACI,iBAAA;EACA,iBAAA;EACA,iBAAA;EACA,iBAAA;EACA,iBAAA;EACA,iBAAA;EACA,uBAAA;EACA,mBAAA;AFiGJ;;AE7FA;EACI,iBAAA;AFgGJ;AE9FI;EAAc,iBAAA;AFiGlB;AEhGI;EAAa,gBAAA;AFmGjB;;AE/FA;EACI,cAAA;EACA,WAAA;EACA,kBAAA;AFkGJ;AEhGI;EALJ;IAMQ,aAAA;EFmGN;AACF;;AEhGA;EACI,WAAA;AFmGJ;;AE9FI;EACI,yBAAA;AFiGR;AE/FI;EACI,yBAAA;AFiGR;AE/FI;EACI,gBAAA;AFiGR;;AE3FI;EAAM,QAAA;AF+FV;AE9FI;EAAM,SAAA;AFiGV;AEhGI;EAAM,SAAA;AFmGV;;AE9FI;EAAM,kBAAA;AFkGV;AEjGI;EAAM,mBAAA;AFoGV;AEnGI;EAAM,mBAAA;AFsGV;AErGI;EAAM,mBAAA;AFwGV;AEvGI;EAAM,mBAAA;AF0GV;;AEtGI;EAAM,mBAAA;AF0GV;AEzGI;EAAM,oBAAA;AF4GV;;AExGI;EAAM,mBAAA;AF4GV;;AExGI;EAAM,YAAA;AF4GV;AE3GI;EAAM,YAAA;AF8GV;AE7GI;EAAM,aAAA;AFgHV;AE/GI;EAAM,aAAA;AFkHV;;AE7GI;EAAM,kBAAA;AFiHV;AEhHI;EAAM,kBAAA;AFmHV;AElHI;EAAM,kBAAA;AFqHV;AEpHI;EAAM,kBAAA;AFuHV;;AEnHI;EAAM,mBAAA;AFuHV;AEtHI;EAAM,mBAAA;AFyHV;AExHI;EAAM,mBAAA;AF2HV;AE1HI;EAAM,mBAAA;AF6HV;;AEzHI;EAAM,gBAAA;AF6HV;;AEzHI;EAAS,mBAAA;AF6Hb;;AExHI;EAAM,kBAAA;AF4HV;AE3HI;EAAM,iBAAA;AF8HV;;AEzHI;EACI,cAAA;AF4HR;;AG3OA;EACI,eAAA;EACA,YAAA;EACA,qBAAA;EACA,eAAA;EACA,gBAAA;EACA,oBAAA;EACA,yBAAA;EACA,kBAAA;EACA,6BAAA;EACA,UAAA;AH8OJ;AG5OI;EACI,yBAAA;AH8OR;AG5OQ;EACI,yBAAA;AH8OZ;;AI1PA;EACI,kCAAA;EACA,gBAAA;EACA,oBAAA;AJ6PJ;;AI1PA;EACI,qBAAA;EACA,oBAAA;AJ6PJ;;AIxPI;EACI,gCAAA;AJ2PR;AIxPI;EACI,yBAAA;EACA,gBAAA;EACA,eAAA;EACA,oBAAA;AJ0PR;AIvPI;EACI,eAAA;AJyPR;;AInPI;EACI,iBAAA;AJsPR;AIpPI;EACI,iBAAA;AJsPR;;AK7RA;EACI,sCAAA;ALgSJ;AK9RI;EACI,WAAA;EACA,kBAAA;EACA,MAAA;EACA,OAAA;EAEA,YAAA;EACA,WAAA;EACA,YAAA;AL+RR;AK5RI;EACI,kBAAA;AL8RR;AK3RI;EACI,iBAAA;EACA,oBAAA;EACA,UAAA;AL6RR;AK3RQ;EACI,oBAAA;AL6RZ;;AMnTI;EAEI,oBAAA;EACA,6BAAA;ANqTR;AMnTQ;EAEI,oBAAA;ANoTZ;AM/SI;EACI,iBAAA;EACA,sCAAA;ANiTR;AM7SI;EAEI,yBAAA;EACA,gBAAA;EACA,iBAAA;AN8SR;;AA/TA;EACI,gBAAA;EACA,uBAAA;AAkUJ","sourcesContent":["/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed, \nfigure, figcaption, footer, header, hgroup, \nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, \nfooter, header, hgroup, menu, nav, section {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol, ul {\n\tlist-style: none;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n\tcontent: '';\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}","@use 'reset';\n@use 'layout';\n@use 'utilities';\n@use 'components';\n@use 'typography';\n@use 'header';\n@use 'navigation';\n\nhtml {\n    font-size: 62.5%;\n    scroll-behavior: smooth;\n}","// Flexbox Layouts\n.flex {\n    display: flex;\n\n    &-d--c {\n        flex-direction: column;\n    }\n}\n\n// Grid Layouts\n.grid {\n    display: grid;\n\n    // GC-1\n    &-gc--1 {\n        grid-template-columns: 1fr;\n    }\n\n    // GC-2\n    &-gc--2 {\n        grid-template-columns: 1fr 1fr;\n\n        @media (max-width: 767px) {\n            grid-template-columns: 1fr;\n        }\n    }\n\n    // GC-3\n    &-gc--3 {\n        grid-template-columns: repeat(3, 1fr);\n\n        @media (max-width: 767px) {\n            grid-template-columns: 1fr;\n        }\n    }\n\n    // GC - FULL\n    &-span--full {\n        grid-column: 1 / -1;\n    }\n}\n\n// Align Items\n.ai {\n    &-c {\n        align-items: center;\n    }\n}\n\n// Justify Content\n.jc {\n    &-c {\n        justify-content: center;\n    }\n}","// Variables\n:root {\n    --lime-9: #5c940d;\n    --lime-7: #74b816;\n    --lime-2: #d8f5a2;\n    --lime-0: #f4fce3;\n    --gray-9: #212529;\n    --gray-7: #495057;\n    --transition: 0.3s ease;\n    --max-width: 1200px;\n}\n\n// Container\n.container {\n    max-width: 1100px;\n\n    &-secondary { max-width: 1000px }\n    &-tertiary { max-width: 800px }\n}\n\n// Images & Video\n.img {\n    display: block;\n    width: 100%;\n    object-fit: center;\n\n    @media(max-width: 767px) {\n        display: none;\n    }\n}\n\n#video {\n    width: 100%;\n}\n\n// Backgrounds\n.bg {\n    &-primary {\n        background: var(--lime-9);\n    }\n    &-light {\n        background: var(--lime-0);\n    }\n    &-dark {\n        background: #333;\n    }\n}\n\n// Gap\n.gap {\n    &-1 { gap: 8px }\n    &-2 { gap: 16px }\n    &-3 { gap: 24px }\n}\n\n// Padding\n.py {\n    &-0 { padding-block: 8px }\n    &-1 { padding-block: 24px }\n    &-2 { padding-block: 32px }\n    &-3 { padding-block: 44px }\n    &-4 { padding-block: 88px }\n}\n\n.pi {\n    &-1 { padding-inline: 8px }\n    &-2 { padding-inline: 12px }\n}\n\n.pb {\n    &-1 { padding-bottom: 4px }\n}\n\n.p {\n    &-0 { padding: 4px }\n    &-1 { padding: 8px }\n    &-2 { padding: 12px }\n    &-3 { padding: 24px }\n}\n\n// Margin\n.my {\n    &-1 { margin-block: 12px }\n    &-2 { margin-block: 24px }\n    &-3 { margin-block: 36px }\n    &-4 { margin-block: 80px }\n}\n\n.mb {\n    &-1 { margin-bottom: 12px }\n    &-2 { margin-bottom: 24px }\n    &-3 { margin-bottom: 36px }\n    &-4 { margin-bottom: 64px }\n}\n\n.ml {\n    &-1 { margin-left: 8px }\n}\n\n.m {\n    &-auto { margin-inline: auto }\n}\n\n// Text Align\n.ta {\n    &-c { text-align: center }\n    &-r { text-align: right }\n}\n\n// Displays\n.disp {\n    &-block {\n        display: block;\n    }\n}","// Buttons\n.btn {\n    cursor: pointer;\n    border: none;\n    display: inline-block;\n    font-size: 2rem;\n    font-weight: 600;\n    color: var(--lime-0);\n    background: var(--lime-9);\n    padding: 16px 24px;\n    transition: var(--transition);\n    z-index: 1;\n\n    &-primary {\n        background: var(--lime-9);\n\n        &:hover {\n            background: var(--lime-7);\n        }\n    }\n}\n","// Fonts\n@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');\n\n// General Styling\nbody {\n    font-family: 'Poppins', sans-serif;\n    line-height: 1.5;\n    color: var(--gray-9);\n}\n\na {\n    text-decoration: none;\n    color: var(--gray-7);\n}\n\n// Headings\n.h {\n    &-main {\n        font-family: 'Pacifico', cursive;\n    }\n\n    &-header {\n        text-transform: uppercase;\n        font-weight: 300;\n        font-size: 2rem;\n        color: var(--gray-7);\n    }\n\n    &-subheader {\n        font-size: 3rem;\n    }\n}\n\n// Paragraphs\n.p {\n    &-main {\n        font-size: 1.8rem;\n    }\n    &-footer {\n        font-size: 1.4rem;\n    }\n}","// Header\n.header {\n    border-bottom: 1px solid var(--lime-2);\n\n    &-container::before {\n        content: \"\";\n        position: absolute;\n        top: 0;\n        left: 0;\n        // background: url('../images/header-bg.jpg') no-repeat center center/cover;\n        height: 100%;\n        width: 100%;\n        opacity: 0.8;\n    }\n\n    &-container {\n        position: relative;\n    }\n\n    &-title {\n        font-size: 3.6rem;\n        color: var(--lime-0);\n        z-index: 1;\n\n        &-alt {\n            color: var(--lime-7)\n        }\n    }\n}","// Navbar\n.nav {\n    // Logo & Links\n    &-logo,\n    &-link {\n        color: var(--lime-0);\n        transition: var(--transition);\n\n        &:hover > &--alt,\n        &:hover {\n            color: var(--lime-2);\n        }\n    }\n\n    // Logo\n    &-logo {\n        font-size: 2.6rem;\n        text-shadow: 1px 1px 2px var(--gray-9);\n    }\n\n    // Links\n    &-links,\n    &-links-ext {\n        text-transform: uppercase;\n        font-weight: 600;\n        font-size: 1.8rem;\n    }\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+/***/ ((module) => {
+
+
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+module.exports = function (cssWithMappingToString) {
+  var list = [];
+
+  // return the list of modules as css string
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = "";
+      var needLayer = typeof item[5] !== "undefined";
+      if (item[4]) {
+        content += "@supports (".concat(item[4], ") {");
+      }
+      if (item[2]) {
+        content += "@media ".concat(item[2], " {");
+      }
+      if (needLayer) {
+        content += "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {");
+      }
+      content += cssWithMappingToString(item);
+      if (needLayer) {
+        content += "}";
+      }
+      if (item[2]) {
+        content += "}";
+      }
+      if (item[4]) {
+        content += "}";
+      }
+      return content;
+    }).join("");
+  };
+
+  // import a list of modules into the list
+  list.i = function i(modules, media, dedupe, supports, layer) {
+    if (typeof modules === "string") {
+      modules = [[null, modules, undefined]];
+    }
+    var alreadyImportedModules = {};
+    if (dedupe) {
+      for (var k = 0; k < this.length; k++) {
+        var id = this[k][0];
+        if (id != null) {
+          alreadyImportedModules[id] = true;
+        }
+      }
+    }
+    for (var _k = 0; _k < modules.length; _k++) {
+      var item = [].concat(modules[_k]);
+      if (dedupe && alreadyImportedModules[item[0]]) {
+        continue;
+      }
+      if (typeof layer !== "undefined") {
+        if (typeof item[5] === "undefined") {
+          item[5] = layer;
+        } else {
+          item[1] = "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {").concat(item[1], "}");
+          item[5] = layer;
+        }
+      }
+      if (media) {
+        if (!item[2]) {
+          item[2] = media;
+        } else {
+          item[1] = "@media ".concat(item[2], " {").concat(item[1], "}");
+          item[2] = media;
+        }
+      }
+      if (supports) {
+        if (!item[4]) {
+          item[4] = "".concat(supports);
+        } else {
+          item[1] = "@supports (".concat(item[4], ") {").concat(item[1], "}");
+          item[4] = supports;
+        }
+      }
+      list.push(item);
+    }
+  };
+  return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/sourceMaps.js":
+/*!************************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/sourceMaps.js ***!
+  \************************************************************/
+/***/ ((module) => {
+
+
+
+module.exports = function (item) {
+  var content = item[1];
+  var cssMapping = item[3];
+  if (!cssMapping) {
+    return content;
+  }
+  if (typeof btoa === "function") {
+    var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(cssMapping))));
+    var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
+    var sourceMapping = "/*# ".concat(data, " */");
+    return [content].concat([sourceMapping]).join("\n");
+  }
+  return [content].join("\n");
+};
 
 /***/ }),
 
@@ -17,7 +232,6 @@
   \*************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 /**
  * @license React
  * react-dom.development.js
@@ -29891,7 +30105,6 @@ if (
   \******************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 
 
 var m = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
@@ -29924,7 +30137,6 @@ if (false) {} else {
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 
 function checkDCE() {
@@ -29968,7 +30180,6 @@ if (false) {} else {
   \*****************************************************/
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 /* module decorator */ module = __webpack_require__.nmd(module);
 /**
  * @license React
@@ -32719,7 +32930,6 @@ if (
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 
 if (false) {} else {
@@ -32735,7 +32945,6 @@ if (false) {} else {
   \*************************************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 /**
  * @license React
  * scheduler.development.js
@@ -33380,13 +33589,333 @@ if (
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 
 if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/scheduler.development.js */ "./node_modules/scheduler/cjs/scheduler.development.js");
 }
 
+
+/***/ }),
+
+/***/ "./src/scss/main.scss":
+/*!****************************!*\
+  !*** ./src/scss/main.scss ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_main_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./main.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_main_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_main_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_main_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_main_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/***/ ((module) => {
+
+
+
+var stylesInDOM = [];
+function getIndexByIdentifier(identifier) {
+  var result = -1;
+  for (var i = 0; i < stylesInDOM.length; i++) {
+    if (stylesInDOM[i].identifier === identifier) {
+      result = i;
+      break;
+    }
+  }
+  return result;
+}
+function modulesToDom(list, options) {
+  var idCountMap = {};
+  var identifiers = [];
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    var id = options.base ? item[0] + options.base : item[0];
+    var count = idCountMap[id] || 0;
+    var identifier = "".concat(id, " ").concat(count);
+    idCountMap[id] = count + 1;
+    var indexByIdentifier = getIndexByIdentifier(identifier);
+    var obj = {
+      css: item[1],
+      media: item[2],
+      sourceMap: item[3],
+      supports: item[4],
+      layer: item[5]
+    };
+    if (indexByIdentifier !== -1) {
+      stylesInDOM[indexByIdentifier].references++;
+      stylesInDOM[indexByIdentifier].updater(obj);
+    } else {
+      var updater = addElementStyle(obj, options);
+      options.byIndex = i;
+      stylesInDOM.splice(i, 0, {
+        identifier: identifier,
+        updater: updater,
+        references: 1
+      });
+    }
+    identifiers.push(identifier);
+  }
+  return identifiers;
+}
+function addElementStyle(obj, options) {
+  var api = options.domAPI(options);
+  api.update(obj);
+  var updater = function updater(newObj) {
+    if (newObj) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap && newObj.supports === obj.supports && newObj.layer === obj.layer) {
+        return;
+      }
+      api.update(obj = newObj);
+    } else {
+      api.remove();
+    }
+  };
+  return updater;
+}
+module.exports = function (list, options) {
+  options = options || {};
+  list = list || [];
+  var lastIdentifiers = modulesToDom(list, options);
+  return function update(newList) {
+    newList = newList || [];
+    for (var i = 0; i < lastIdentifiers.length; i++) {
+      var identifier = lastIdentifiers[i];
+      var index = getIndexByIdentifier(identifier);
+      stylesInDOM[index].references--;
+    }
+    var newLastIdentifiers = modulesToDom(newList, options);
+    for (var _i = 0; _i < lastIdentifiers.length; _i++) {
+      var _identifier = lastIdentifiers[_i];
+      var _index = getIndexByIdentifier(_identifier);
+      if (stylesInDOM[_index].references === 0) {
+        stylesInDOM[_index].updater();
+        stylesInDOM.splice(_index, 1);
+      }
+    }
+    lastIdentifiers = newLastIdentifiers;
+  };
+};
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/insertBySelector.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/insertBySelector.js ***!
+  \********************************************************************/
+/***/ ((module) => {
+
+
+
+var memo = {};
+
+/* istanbul ignore next  */
+function getTarget(target) {
+  if (typeof memo[target] === "undefined") {
+    var styleTarget = document.querySelector(target);
+
+    // Special case to return head of iframe instead of iframe itself
+    if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+      try {
+        // This will throw an exception if access to iframe is blocked
+        // due to cross-origin restrictions
+        styleTarget = styleTarget.contentDocument.head;
+      } catch (e) {
+        // istanbul ignore next
+        styleTarget = null;
+      }
+    }
+    memo[target] = styleTarget;
+  }
+  return memo[target];
+}
+
+/* istanbul ignore next  */
+function insertBySelector(insert, style) {
+  var target = getTarget(insert);
+  if (!target) {
+    throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+  }
+  target.appendChild(style);
+}
+module.exports = insertBySelector;
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/insertStyleElement.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
+  \**********************************************************************/
+/***/ ((module) => {
+
+
+
+/* istanbul ignore next  */
+function insertStyleElement(options) {
+  var element = document.createElement("style");
+  options.setAttributes(element, options.attributes);
+  options.insert(element, options.options);
+  return element;
+}
+module.exports = insertStyleElement;
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
+  \**********************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+
+
+/* istanbul ignore next  */
+function setAttributesWithoutAttributes(styleElement) {
+  var nonce =  true ? __webpack_require__.nc : 0;
+  if (nonce) {
+    styleElement.setAttribute("nonce", nonce);
+  }
+}
+module.exports = setAttributesWithoutAttributes;
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/styleDomAPI.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
+  \***************************************************************/
+/***/ ((module) => {
+
+
+
+/* istanbul ignore next  */
+function apply(styleElement, options, obj) {
+  var css = "";
+  if (obj.supports) {
+    css += "@supports (".concat(obj.supports, ") {");
+  }
+  if (obj.media) {
+    css += "@media ".concat(obj.media, " {");
+  }
+  var needLayer = typeof obj.layer !== "undefined";
+  if (needLayer) {
+    css += "@layer".concat(obj.layer.length > 0 ? " ".concat(obj.layer) : "", " {");
+  }
+  css += obj.css;
+  if (needLayer) {
+    css += "}";
+  }
+  if (obj.media) {
+    css += "}";
+  }
+  if (obj.supports) {
+    css += "}";
+  }
+  var sourceMap = obj.sourceMap;
+  if (sourceMap && typeof btoa !== "undefined") {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  }
+
+  // For old IE
+  /* istanbul ignore if  */
+  options.styleTagTransform(css, styleElement, options.options);
+}
+function removeStyleElement(styleElement) {
+  // istanbul ignore if
+  if (styleElement.parentNode === null) {
+    return false;
+  }
+  styleElement.parentNode.removeChild(styleElement);
+}
+
+/* istanbul ignore next  */
+function domAPI(options) {
+  if (typeof document === "undefined") {
+    return {
+      update: function update() {},
+      remove: function remove() {}
+    };
+  }
+  var styleElement = options.insertStyleElement(options);
+  return {
+    update: function update(obj) {
+      apply(styleElement, options, obj);
+    },
+    remove: function remove() {
+      removeStyleElement(styleElement);
+    }
+  };
+}
+module.exports = domAPI;
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/styleTagTransform.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
+  \*********************************************************************/
+/***/ ((module) => {
+
+
+
+/* istanbul ignore next  */
+function styleTagTransform(css, styleElement) {
+  if (styleElement.styleSheet) {
+    styleElement.styleSheet.cssText = css;
+  } else {
+    while (styleElement.firstChild) {
+      styleElement.removeChild(styleElement.firstChild);
+    }
+    styleElement.appendChild(document.createTextNode(css));
+  }
+}
+module.exports = styleTagTransform;
 
 /***/ })
 
@@ -33469,11 +33998,15 @@ if (false) {} else {
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/nonce */
+/******/ 	(() => {
+/******/ 		__webpack_require__.nc = undefined;
+/******/ 	})();
+/******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-"use strict";
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
@@ -33482,13 +34015,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
 /* harmony import */ var _js_App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/App */ "./src/js/App.js");
-/* harmony import */ var _js_App__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_js_App__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scss/main.scss */ "./src/scss/main.scss");
 
 
 
-// import styles from './scss/main.scss';
+
+var rootEl = document.getElementById('root');
+var root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot)(rootEl);
+root.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_js_App__WEBPACK_IMPORTED_MODULE_2__["default"], null));
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundlebef7b69a7c9c3794aac3.js.map
+//# sourceMappingURL=bundle0c1da0402014940d4634.js.map
